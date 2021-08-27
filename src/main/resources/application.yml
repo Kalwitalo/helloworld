@@ -1,0 +1,11 @@
+eureka:
+  instance:
+    preferIpAddress: true
+    hostname: kalwitalo
+  client:
+    service-url:
+      defaultZone: http://10.100.19.11:19190/eureka-server/eureka
+
+spring:
+  application:
+    name: 'kalwitaloapp'
