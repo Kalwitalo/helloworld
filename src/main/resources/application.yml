@@ -1,11 +1,12 @@
 eureka:
   instance:
-    preferIpAddress: true
-    hostname: kalwitalo
+    prefer-ip-address: true
   client:
     service-url:
       defaultZone: http://10.100.19.11:19190/eureka-server/eureka
+    fetch-registry: false
 
 spring:
   application:
     name: 'kalwitaloapp'
+
